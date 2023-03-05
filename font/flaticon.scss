@@ -1,0 +1,57 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?de1d1f934822e2012893822e910ed35f") format("truetype"),
+url("./flaticon.woff?de1d1f934822e2012893822e910ed35f") format("woff"),
+url("./flaticon.woff2?de1d1f934822e2012893822e910ed35f") format("woff2"),
+url("./flaticon.eot?de1d1f934822e2012893822e910ed35f#iefix") format("embedded-opentype"),
+url("./flaticon.svg?de1d1f934822e2012893822e910ed35f#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "apple": "\f101",
+    "data-analysis-symbol": "\f102",
+    "google-play": "\f103",
+    "lcd": "\f104",
+    "network": "\f105",
+    "performance": "\f106",
+    "security": "\f107",
+    "web-programming": "\f108",
+);
+
+.flaticon-apple:before {
+    content: map-get($flaticon-map, "apple");
+}
+.flaticon-data-analysis-symbol:before {
+    content: map-get($flaticon-map, "data-analysis-symbol");
+}
+.flaticon-google-play:before {
+    content: map-get($flaticon-map, "google-play");
+}
+.flaticon-lcd:before {
+    content: map-get($flaticon-map, "lcd");
+}
+.flaticon-network:before {
+    content: map-get($flaticon-map, "network");
+}
+.flaticon-performance:before {
+    content: map-get($flaticon-map, "performance");
+}
+.flaticon-security:before {
+    content: map-get($flaticon-map, "security");
+}
+.flaticon-web-programming:before {
+    content: map-get($flaticon-map, "web-programming");
+}

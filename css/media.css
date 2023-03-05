@@ -1,0 +1,820 @@
+@media(min-width:1400px){
+    /*========Communication part css=======*/
+    .main-introduce p {
+        padding-right: 54px;
+    }
+    /*========Contact part css=======*/
+    .left-header p {
+        color: #222;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.8;
+        text-align: justify;
+        padding-right: 30px;
+    }
+}
+
+@media(min-width:1200px) and (max-width:1399px){
+    /*========Banner part css=======*/
+    .banner-content p {
+        padding-right: 0px;
+    }
+    /*========Feature part css=======*/
+    .header {
+        margin-bottom: 50px;
+    }
+    .header p {
+        padding: 0 95px;
+    }
+    /*========Screenshots part css=======*/
+    #screenshot {
+        padding-top: 42px;
+        padding-bottom: 42px;
+    }
+    .screenshot-frame {
+        background-image: url(../images/iphone-x-frame.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        width: 300px;
+        height: 643px;
+        position: absolute;
+        top: -22px;
+        left: calc(50% + 0.5px);
+        z-index: 2;
+        border-radius: 40px;
+        -webkit-border-radius: 40px;
+        -moz-border-radius: 40px;
+        -ms-border-radius: 40px;
+        -o-border-radius: 40px;
+        display: block;
+        transform: translateX(-50%) scale(.8);
+        -webkit-transform: translateX(-50%) scale(.8);
+        -moz-transform: translateX(-50%) scale(.8);
+        -ms-transform: translateX(-50%) scale(.8);
+        -o-transform: translateX(-50%) scale(.8);
+    }
+    /*========People part css=======*/
+    #people {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .people-message p {
+        padding-right: 0px;
+    }
+    /*========Communication part css=======*/
+    #communicate {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .left-communicate-header h2 {
+        padding-right: 15px;
+    }
+    .left-communicate-header p {
+        padding-right: 85px;
+    }
+    /*========Contact part css=======*/
+    #contact {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .left-header p {
+        padding-right: 0px;
+    }
+    /*========Footer part css=======*/
+    .main-footer-list ul li {
+        margin: 13px 0;
+    }
+}
+
+@media(min-width:992px) and (max-width:1199px){
+    /*========Banner part css=======*/
+    .banner-content h1 {
+        font-family: 'Raleway', sans-serif;
+        font-size: 60px;
+        font-weight: 600;
+        text-transform: capitalize;
+        color: #fff;
+    }
+    /*========Feature part css=======*/
+    .header {
+        margin-bottom: 50px;
+    }
+    .header p {
+        padding: 0 95px;
+    }
+    .feature-text p {
+        padding: 0px;
+    }
+    /*========Overview part css=======*/
+     .overview {
+        margin-top: 60px;
+        padding-top: 60px;
+        padding-bottom: 190px;
+    }
+    .overview-text h3 {
+        font-size: 30px;
+    }
+    .overview-text p {
+        font-size: 16px;
+    }
+    /*========Screenshots part css=======*/
+    #screenshot {
+        padding-top: 42px;
+        padding-bottom: 42px;
+    }
+    .screenshot-frame {
+        background-image: url(../images/iphone-x-frame.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        width: 290px;
+        height: 618px;
+        position: absolute;
+        top: -58px;
+        left: calc(50% + 0.5px);
+        z-index: 2;
+        border-radius: 40px;
+        -webkit-border-radius: 40px;
+        -moz-border-radius: 40px;
+        -ms-border-radius: 40px;
+        -o-border-radius: 40px;
+        display: block;
+        transform: translateX(-50%) scale(.7);
+        -webkit-transform: translateX(-50%) scale(.7);
+        -moz-transform: translateX(-50%) scale(.7);
+        -ms-transform: translateX(-50%) scale(.7);
+        -o-transform: translateX(-50%) scale(.7);
+    }
+    /*========People part css=======*/
+    #people {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .people-message p {
+        padding-right: 0px;
+    }
+    /*========Communication part css=======*/
+    #communicate {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .communication-right {
+        margin-top: 200px;
+        transform: scale(1.09);
+        -webkit-transform: scale(1.09);
+        -moz-transform: scale(1.09);
+        -ms-transform: scale(1.09);
+        -o-transform: scale(1.09);
+    }
+    .left-communicate-header p {
+        padding-right: 113px;
+    }
+    .main-introduce p {
+        padding-right: 71px;
+    }
+    /*========Faq part css=======*/
+    #faq {
+        padding-top: 45px;
+        padding-bottom: 45px;
+    }
+    .accordion-button {
+        font-size: 18px;
+    }
+    /*========Team part css=======*/
+    #team {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    /*========Contact part css=======*/
+    #contact {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .left-header p {
+        padding-right: 0px;
+    }
+    /*========Footer part css=======*/
+    #footer {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .footer-items p {
+        text-align: left;
+    }
+    .main-footer-list ul li {
+        margin: 19px 0;
+    }
+}
+
+@media(min-width:768px) and (max-width:991px){
+    /*========Navbar part css=======*/
+    .navbar-brand {
+        transform: scale(.8);
+        -webkit-transform: scale(.8);
+        -moz-transform: scale(.8);
+        -ms-transform: scale(.8);
+        -o-transform: scale(.8);
+    }
+    .navbar-nav {
+        background-color: #372e95;
+        padding: 20px;
+        margin-top: 15px;
+    }
+    .nav-item {
+        padding-right: 0px;
+        padding-left: 0px;
+        padding-top: 12px;
+        padding-bottom: 0px;
+        text-align: center;
+    }
+    .sticky-menu .navbar-nav{
+        background-color: transparent !important;
+        padding: 0px;
+        margin-top: 15px;
+    }
+    .sticky-menu .nav-item {
+        padding-bottom: 0px;
+    }
+    /*========Banner part css=======*/
+    #banner {
+        padding-top: 115px;
+    }
+    .banner-content h1 {
+        font-size: 45px;
+    }
+    .screen-banner-slider{
+        padding: 9px 6px;
+    }
+    .banner-content p {
+        padding-right: 0px;
+    }
+    /*========Feature part css=======*/
+    #feature {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .header {
+        margin-bottom: 50px;
+    }
+    .feature-text p {
+        padding: 0px;
+    }
+    /*========Overview part css=======*/
+     .overview {
+        margin-top: 60px;
+        padding-top: 60px;
+        padding-bottom: 190px;
+    }
+    .overview-text h3 {
+        font-size: 30px;
+    }
+    .overview-text p {
+        font-size: 16px;
+    }
+    /*========Screenshots part css=======*/
+    #screenshot {
+        padding-top: 42px;
+        padding-bottom: 42px;
+    }
+    /*========People part css=======*/
+    #people {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .people-message p {
+        padding-right: 0px;
+    }
+    /*========Price part css=======*/
+    #price {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .pricing-card {
+        margin-bottom: 20px;
+    }
+    /*========Communication part css=======*/
+    #communicate {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .left-communicate-header h2 {
+        padding-right: 75px;
+    }
+    /*========Faq part css=======*/
+    #faq {
+        padding-top: 45px;
+        padding-bottom: 45px;
+    }
+    .phone-left {
+        margin-top: -80px;
+    }
+    .phone-left img{
+        transform: scale(.7);
+        -webkit-transform: scale(.7);
+        -moz-transform: scale(.7);
+        -ms-transform: scale(.7);
+        -o-transform: scale(.7);
+    }
+    .accordion-button {
+        font-size: 18px;
+    }
+    .accordion-body p {
+        font-size: 15px;
+        padding-right: 0px;
+    }
+    /*========Team part css=======*/
+    #team {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    /*========Contact part css=======*/
+    #contact {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .contact-form{
+        margin-top: 40px;
+    }
+    .left-header p {
+        padding-right: 0px;
+    }
+}
+
+@media(min-width:576px) and (max-width:767px){
+    /*========Navbar part css=======*/
+    .navbar-brand {
+        transform: scale(.8);
+        -webkit-transform: scale(.8);
+        -moz-transform: scale(.8);
+        -ms-transform: scale(.8);
+        -o-transform: scale(.8);
+    }
+    .navbar-nav {
+        background-color: #372e95;
+        padding: 20px;
+        margin-top: 15px;
+    }
+    .nav-item {
+        padding-right: 0px;
+        padding-left: 0px;
+        padding-top: 12px;
+        padding-bottom: 0px;
+        text-align: center;
+    }
+    .sticky-menu .navbar-nav{
+        background-color: transparent !important;
+        padding: 0px;
+        margin-top: 15px;
+    }
+    .sticky-menu .nav-item {
+        padding-bottom: 0px;
+    }
+    /*========Banner part css=======*/
+    #banner {
+        padding-top: 115px;
+    }
+    .banner-content {
+        margin-top: 0px;
+        text-align: center;
+    }
+    .banner-content h1 {
+        font-size: 40px;
+    }
+    .banner-content p {
+        font-size: 16px;
+        padding-right: 0px;
+    }
+    .banner-btn {
+        text-align: center;
+    }
+    .banner-btn a {
+        font-size: 14px;
+    }
+    .main-banner-slider {
+        transform: scale(.7);
+    }
+    .custom-shape-divider-bottom-1615658124 svg {
+        width: calc(323% + 1.3px);
+    }
+    .screen-banner-slider{
+        border-radius: 128px;
+        -webkit-border-radius: 128px;
+        -moz-border-radius: 128px;
+        -ms-border-radius: 128px;
+        -o-border-radius: 128px;
+    }
+    /*========Feature part css=======*/
+    #feature {
+        padding-top: 10px;
+        padding-bottom: 15px;
+    }
+    .header {
+        margin-bottom: 50px;
+    }
+    .header h2 {
+        font-size: 30px;
+    }
+    .header p {
+        font-size: 14px;
+        padding: 0px;
+    }
+    .feature-text p {
+        padding: 0px 0px;
+        font-size: 15px;
+    }
+    /*========Overview part css=======*/
+    .overview {
+        margin-top: 25px;
+        padding-top: 67px;
+        padding-bottom: 190px;
+    }
+    .overview-text h3 {
+        font-size: 30px;
+    }
+    .overview-text p {
+        font-size: 16px;
+    }
+    .custom-shape-divider-bottom-1615988814 svg {
+        width: calc(313% + 460.3px);
+    }
+     /*========counter-up part css=======*/
+     #counter {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .main-counterup{
+        border-right: none;
+    }
+    /*========Screenshots part css=======*/
+    #screenshot {
+        padding-top: 42px;
+        padding-bottom: 42px;
+    }
+    /*========People part css=======*/
+    #people {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .people-message p {
+        padding-right: 0px;
+        text-align: center;
+    }
+    .people-name h4 {
+        text-align: center;
+    }
+    .ratings {
+        text-align: center;
+    }
+    /*========Price part css=======*/
+    #price {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .pricing-card {
+        margin-bottom: 20px;
+    }
+    /*========Communication part css=======*/
+    #communicate {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .left-communicate-header h2 {
+        font-size: 25px;
+        padding-right: 0px;
+        text-align: center;
+    }
+    .left-communicate-header p {
+        font-size: 15px;
+        padding-right: 0px;
+        text-align: center;
+    }
+    .main-introduce p {
+        font-size: 14px;
+        padding-left: 7px;
+    }
+    .read-left {
+        margin-top: 10px;
+        text-align: center;
+    }
+    .communication-right {
+        margin-top: 65px;
+    }
+    /*========Faq part css=======*/
+    #faq {
+        padding-top: 45px;
+        padding-bottom: 45px;
+    }
+    .phone-left {
+        margin-top: -80px;
+    }
+    .phone-left img{
+        transform: scale(.7);
+        -webkit-transform: scale(.7);
+        -moz-transform: scale(.7);
+        -ms-transform: scale(.7);
+        -o-transform: scale(.7);
+    }
+    .accordion-button {
+        font-size: 16px;
+    }
+    .accordion-body p {
+        font-size: 14px;
+        padding-right: 0px;
+    }
+    /*========Team part css=======*/
+    #team {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    /*========Contact part css=======*/
+    #contact {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .left-header h3 {
+        text-align: center;
+    }
+    .left-header p {
+        font-size: 14px;
+        text-align: center;
+        padding-right: 0;
+    }
+    .main-info{
+        text-align: center;
+    }
+    .contact-form{
+        margin-top: 40px;
+    }
+    .form-btn{
+        text-align: center;
+    }
+    /*========Footer part css=======*/
+    #footer {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .footer-items{
+        margin: 20px 0;
+    }
+}
+
+@media(max-width:575.98px){
+    /*========Navbar part css=======*/
+    .navbar-brand {
+        transform: scale(.8);
+        -webkit-transform: scale(.8);
+        -moz-transform: scale(.8);
+        -ms-transform: scale(.8);
+        -o-transform: scale(.8);
+    }
+    .navbar-nav {
+        background-color: #372e95;
+        padding: 20px;
+        margin-top: 15px;
+    }
+    .nav-item {
+        padding-right: 0px;
+        padding-left: 0px;
+        padding-top: 12px;
+        padding-bottom: 0px;
+        text-align: center;
+    }
+    .sticky-menu .navbar-nav{
+        background-color: transparent !important;
+        padding: 0px;
+        margin-top: 15px;
+    }
+    .sticky-menu .nav-item {
+        padding-bottom: 0px;
+    }
+    /*========Banner part css=======*/
+    #banner {
+        padding-top: 115px;
+    }
+    .banner-content {
+        margin-top: 0px;
+        text-align: center;
+    }
+    .banner-content h1 {
+        font-size: 40px;
+    }
+    .banner-content p {
+        font-size: 16px;
+        padding-right: 0px;
+    }
+    .banner-btn {
+        text-align: center;
+    }
+    .banner-btn a {
+        font-size: 14px;
+    }
+    .main-banner-slider {
+        transform: scale(.7);
+    }
+    .custom-shape-divider-bottom-1615658124 svg {
+        width: calc(323% + 1.3px);
+    }
+    /*========Feature part css=======*/
+    #feature {
+        padding-top: 10px;
+        padding-bottom: 15px;
+    }
+    .header {
+        margin-bottom: 50px;
+    }
+    .header h2 {
+        font-size: 30px;
+    }
+    .header p {
+        font-size: 14px;
+        padding: 0px;
+    }
+    .feature-text p {
+        padding: 0px 0px;
+        font-size: 15px;
+    }
+    /*========Overview part css=======*/
+    .overview {
+        margin-top: 25px;
+        padding-top: 67px;
+        padding-bottom: 190px;
+    }
+    .overview-text h3 {
+        font-size: 30px;
+    }
+    .overview-text p {
+        font-size: 16px;
+    }
+    .custom-shape-divider-bottom-1615988814 svg {
+        width: calc(313% + 460.3px);
+    }
+    .pulse-main {
+        margin: 20px auto;
+    }
+    /*========counter-up part css=======*/
+    #counter {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .main-counterup{
+        border-right: none;
+    }
+    /*========Screenshots part css=======*/
+    #screenshot {
+        padding-top: 42px;
+        padding-bottom: 42px;
+    }
+    /*========People part css=======*/
+    #people {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .people-message p {
+        padding-right: 0px;
+        text-align: center;
+    }
+    .people-name h4 {
+        text-align: center;
+    }
+    .ratings {
+        text-align: center;
+    }
+    /*========Price part css=======*/
+    #price {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .pricing-card {
+        margin-bottom: 20px;
+    }
+    /*========Communication part css=======*/
+    #communicate {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .left-communicate-header h2 {
+        font-size: 25px;
+        padding-right: 0px;
+        text-align: center;
+    }
+    .left-communicate-header p {
+        font-size: 15px;
+        padding-right: 0px;
+        text-align: center;
+    }
+    .main-introduce p {
+        font-size: 14px;
+        padding-left: 7px;
+    }
+    .read-left {
+        margin-top: 10px;
+        text-align: center;
+    }
+    .communication-right {
+        margin-top: 65px;
+    }
+    /*========Faq part css=======*/
+    #faq {
+        padding-top: 45px;
+        padding-bottom: 45px;
+    }
+    .phone-left {
+        margin-top: -80px;
+    }
+    .phone-left img{
+        transform: scale(.7);
+        -webkit-transform: scale(.7);
+        -moz-transform: scale(.7);
+        -ms-transform: scale(.7);
+        -o-transform: scale(.7);
+    }
+    .accordion-button {
+        font-size: 16px;
+    }
+    .accordion-body p {
+        font-size: 14px;
+        padding-right: 0px;
+    }
+    /*========Team part css=======*/
+    #team {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    /*========Contact part css=======*/
+    #contact {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .left-header h3 {
+        text-align: center;
+    }
+    .left-header p {
+        font-size: 14px;
+        text-align: center;
+        padding-right: 0;
+    }
+    .main-info{
+        text-align: center;
+    }
+    .contact-form{
+        margin-top: 40px;
+    }
+    .form-btn{
+        text-align: center;
+    }
+    /*========Footer part css=======*/
+    #footer {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .footer-header-icon{
+        text-align: center;
+    }
+    .footer-items p {
+        font-size: 14px;
+        text-align: center;
+    }
+    .footer-social-icons{
+        text-align: center;
+    }
+    .footer-items{
+        text-align: center;
+        margin: 20px 0;
+    }
+    @media(min-width:501px) and (max-width:575px){
+        /*========Banner part css=======*/
+        .screen-banner-slider{
+            border-radius: 128px;
+            -webkit-border-radius: 128px;
+            -moz-border-radius: 128px;
+            -ms-border-radius: 128px;
+            -o-border-radius: 128px;
+        }
+    }
+    @media(min-width:441px) and (max-width:575px){
+        /*========Feature part css=======*/
+        .feature-text p {
+            padding: 0px 40px;
+        }
+    }
+    @media(min-width:400px) and (max-width:500px){
+        /*========Banner part css=======*/
+        .screen-banner-slider{
+            border-radius: 100px;
+            -webkit-border-radius: 100px;
+            -moz-border-radius: 100px;
+            -ms-border-radius: 100px;
+            -o-border-radius: 100px;
+        }
+    }
+    @media(min-width:340px) and (max-width:399px){
+        /*========Banner part css=======*/
+        .screen-banner-slider{
+            border-radius: 70px;
+            -webkit-border-radius: 70px;
+            -moz-border-radius: 70px;
+            -ms-border-radius: 70px;
+            -o-border-radius: 70px;
+        }
+    }
+}
